@@ -193,6 +193,7 @@ local function doEmission(dt)
 	ParticleGravity(CFG.gravity)				-- common hellishly randomized gravity W
 	ParticleDrag(CFG.drag)                      -- Do it go up or down?
 	ParticleColor(red, green, blue)				-- RGB stuff.
+	ParticleFlags(256)
 
 	--Emit particles
 	for i=1, count do
