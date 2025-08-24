@@ -217,7 +217,7 @@ function init()
 	RegisterTool("tdwater", "TeardownWater", "MOD/vox/smokegun.vox")
 	SetBool("game.tool.tdwater.enabled", true)
 	snd = LoadLoop("MOD/snd/watta.ogg")
-	math.randomseed(os.time())
+	math.randomseed(GetTime() * 100000)
 	readConfig()
 end
 

@@ -1,4 +1,4 @@
-name = Teardown Water
-author = Ohio
-description = A smoke simulation in a water-themed trench coat.
+name = Teardown Water (AI Edition)
+author = hltdev
+description = A smoke simulation in a water-themed trench coat. Updated/improved version original author Ohio so all credit to them firstmost.
 tags = Tool
